@@ -1,0 +1,60 @@
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    color: green;
+  }
+  
+  .checkbox-input {
+    margin-right: 8px;
+    /* Customizing checkbox appearance */
+    width: 1.2rem;
+    height: 1.2rem;
+    border: 5px solid green; 
+  }
+  
+  .checkbox-input:checked {
+    color: green;
+  }
+  
+ 
+  .pdf-text {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+/* Styling for the Edit PDF button */
+.edit-button {
+  background-color: #0846B0; 
+  color: white; 
+  font-size: 1rem; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.edit-button:hover {
+  background-color: #03256C; 
+}
+
+/* Styling for the Download PDF button */
+.download-button {
+  background-color: #2ecc71; 
+  color: white; 
+  font-size: 1rem; 
+  padding: 10px 20px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+
+.download-button:hover {
+  background-color: #27ae60; 
+}
